@@ -8,9 +8,9 @@
 
 Name:     miniaudiopolicy
 Summary:  Android Fake MiniAudioPolicy service
-Version:  1.1.1
+Version:  0.1.0
 Release:  %(date +'%%Y%%m%%d%%H%%M')
-License:  GPLv3
+License:  ASL 2.0
 Source0:  out/miniaudiopolicyservice
 
 %description

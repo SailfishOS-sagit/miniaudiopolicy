@@ -59,3 +59,8 @@ LOCAL_C_INCLUDES := \
 LOCAL_MULTILIB := $(AUDIOSERVER_MULTILIB)
 
 LOCAL_MODULE := miniaudiopolicyservice
+
+LOCAL_CFLAGS := -Werror -Wall
+
+include $(BUILD_EXECUTABLE)
+
