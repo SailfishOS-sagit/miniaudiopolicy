@@ -1,0 +1,4 @@
+service miniaudiopolicy /usr/libexec/droid-hybris/system/bin/miniaudiopolicyservice
+    class main
+    user system
+    group audio
