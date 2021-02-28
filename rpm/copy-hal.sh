@@ -12,7 +12,7 @@ fi
 fold=$(dirname "$0")/../out
 rm -rf $fold
 mkdir $fold
-mv ./out/target/product/${OUT_DEVICE}/system/bin/miniaudiopolicyservice $fold
+cp ./out/target/product/${OUT_DEVICE}/system/bin/miniaudiopolicyservice $fold
 
 ls -lh $fold
 
